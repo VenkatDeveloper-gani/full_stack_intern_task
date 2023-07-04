@@ -1,0 +1,88 @@
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display:flex ;
+}
+
+.list-items-container {  
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  margin-bottom: 0px; 
+}
+
+.list-item {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.list-item ul {
+  list-style: none;
+  padding: 1px;
+  border-radius:0px;
+  margin-top: 0px;
+  
+}
+
+.list-item li {
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 0px;  
+}
+
+.list-item li.active {
+  background-color: lightblue;
+}
+
+.card-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin-left: 15px ;
+  margin-bottom: 0px;
+  font-family: 'Arial Narrow'; 
+  font-weight: normal;
+  font-style: normal;
+}
+
+.card-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;  
+}
+
+.card-box {
+  border: 1px solid #ccc;
+  border-radius: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #f5f5f5;
+  margin-left: 40px;
+  width:100%;
+  
+}
+
+.heading-style {
+  font-family: 'Times New Roman';
+  font-size:30px;
+}
+
+.price-style {
+  font-family: 'Times New Roman';
+  font-size:15px;
+}
+
+.item-id-style {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
